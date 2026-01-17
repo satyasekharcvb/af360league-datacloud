@@ -25,7 +25,7 @@ public without sharing class CriticalAssetHealthService {
 
         List<String> assetIds = new List<String>();
 
-        String ciName = 'Asset_Heath_Score__cio';
+        String ciName = 'Asset_Health_Score__cio';
         String filters = '[Health_Status__c=Critical]';
         ConnectApi.CdpQueryInput queryInput = new ConnectApi.CdpQueryInput();
 
